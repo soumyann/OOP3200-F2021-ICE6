@@ -6,7 +6,6 @@
 #include <iomanip>
 #include <string>
 #include <sstream>
-
 #include "Mathf.h"
 
 template <class T>

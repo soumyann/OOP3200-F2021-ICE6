@@ -21,7 +21,7 @@ public:
 	T GetY() const;
 	T GetZ() const;
 
-	// mutators
+	// mutator
 	void setX(const T x);
 	void setY(const T y);
 	void setZ(const T z);
