@@ -5,7 +5,6 @@
  *Edited on	: Oct 22,2021
  */
 
-
 #include <iomanip>
 #include <iostream>
 #include <map>
@@ -46,8 +45,7 @@ int main()
 
 	std::cout << "Distance between " << gameObjects["Ship"]->GetName()
 		<< " and " << gameObjects["Enemy"]->GetName() << " is: " << std::to_string(distance) << "\n" << std::endl;
-
-
+	
 	// start output
 	std::ofstream outfile("GameObject.txt", std::ios::out);
 	outfile << gameObjects["Ship"]->ToFile() << std::endl;
@@ -62,8 +60,7 @@ int main()
 	std::cout << "\n----------------------------------------------\n";
 	std::cout << " STARTING INPUT \n";
 	std::cout << "------------------------------------------------\n\n";
-
-
+	
 	std::ifstream infile;
 	std::string fileName = "GameObject.txt";
 
@@ -94,7 +91,6 @@ int main()
 	}
 
 	PrintGameObjects(gameObjects);
-
 	std::cout << "-----------------------------------------------------\n";
 	std::cout << " END OF INPUT \n";
 	std::cout << "-----------------------------------------------------\n\n";
